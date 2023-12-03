@@ -1,0 +1,35 @@
+#bracket-Container {
+    height: 100%;
+}
+
+
+.division {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.round {
+    background-color: bisque;
+   
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game {
+    background-color: aquamarine;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.team {
+    background-color: darkslategrey;
+    font-size: 10px;
+    color: aliceblue;
+}
