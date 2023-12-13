@@ -1,35 +1,69 @@
+main{
+
+}
+body{
+    font-family:sans-serif;
+    font-size:small;
+    padding:10px;
+    line-height:1.4em;
+}
+
 #bracket-Container {
     height: 100%;
+    display:flex;
+    flex-direction:row;
 }
 
 
 .division {
     display: flex;
     align-items: center;
-    background-color: aqua;
     width: 50%;
     height: 50%;
-    float: left;
 }
 
-.round {
-    background-color: bisque;
-   
-    margin-right: 10px;
+/*.round {*/
+/*    background-color: bisque;*/
+
+/*    margin-right: 10px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.round{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    list-style: none;
+    padding: 0;
 }
 
 .game {
-    background-color: aquamarine;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    padding-left:20px;
 }
 
 .team {
-    background-color: darkslategrey;
-    font-size: 10px;
-    color: aliceblue;
+    font-size: 12px;
+    height: 20px;
+    color:black;
+    text-align: center;
+    margin:0;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    }
+.team-top{
+    border-bottom: 1px solid black;
+}
+.team-bottom{
+    border-top: 1px solid black;
+}
+.team-spacer {
+    min-height:50px;
+    border-right: 1px solid black;
+}
+.game-spacer{
+    flex-grow:1;
 }
